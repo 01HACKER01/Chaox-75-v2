@@ -161,4 +161,5 @@ This is a pre-release build of the CHAOX-75 firmware. It includes the current ke
 **CHAOX-75**  
 *Custom keyboard firmware, built from the ground up.*
 
-##thank you very much 
+## Thank you very much 
+
