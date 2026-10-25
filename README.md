@@ -1,4 +1,14 @@
 # Chaox-75-v2
+<img width="410" height="329" alt="image" src="https://github.com/user-attachments/assets/0e184ab3-a807-4555-9e2d-b27b0a48235e" />
+<img width="1010" height="632" alt="image" src="https://github.com/user-attachments/assets/887b0fd3-700c-49f0-ab09-b6765a803e89" />
+<img width="800" height="305" alt="image" src="https://github.com/user-attachments/assets/7e0d5e57-19a0-49bf-9f55-15ddec867746" />
+<img width="802" height="293" alt="image" src="https://github.com/user-attachments/assets/051067fd-8080-456e-9e36-00cb07725982" />
+<img width="761" height="333" alt="image" src="https://github.com/user-attachments/assets/e66547de-7d9d-4594-8712-abd92a6a7974" />
+
+
+#keyboard
+so this keyboard hacs trimode connectivity 2.4GHz wired and buetooth 
+i have made 1 more keyboard which was version 1 but this is version 2 i havent shipped that keyboard cause i havent made any firmware yetr cause i dont know how to make the firmware so we will also ship that keyboard soon. also this keyboard has 82 mx cherry hotswappable switches and 1 rotaary encoder it also has 1 oled display and the micro controller is the nRF52840.   
 
 # CHAOX-75 Firmware — Pre-Release
 
@@ -117,3 +127,5 @@ This is a pre-release build of the CHAOX-75 firmware. It includes the current ke
 
 **CHAOX-75**  
 *Custom keyboard firmware, built from the ground up.*
+
+##thank you very much 
