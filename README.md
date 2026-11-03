@@ -15,7 +15,7 @@ so this keyboard hacs trimode connectivity 2.4GHz wired and buetooth
 i have made 1 more keyboard which was version 1 but this is version 2 i havent shipped that keyboard cause i havent made any firmware yetr cause i dont know how to make the firmware so we will also ship that keyboard soon. also this keyboard has 82 mx cherry hotswappable switches and 1 rotaary encoder it also has 1 oled display and the micro controller is the nRF52840.   
 
 
-## This is a pre-release build of the CHAOX-75 firmware. It includes the current keyboard functionality and is intended for early use and feedback while development continues.
+# This is a pre-release build of the CHAOX-75 firmware. It includes the current keyboard functionality and is intended for early use and feedback while development continues.
 
 
 ## BOM
