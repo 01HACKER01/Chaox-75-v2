@@ -1,0 +1,39 @@
+/ {
+    zephyr,user {
+        row-gpios =
+            <&gpio0 2 0>,
+            <&gpio0 3 0>,
+            <&gpio0 4 0>,
+            <&gpio0 5 0>,
+            <&gpio0 6 0>,
+            <&gpio0 7 0>;
+
+        col-gpios =
+            <&gpio0 8 0>,
+            <&gpio0 9 0>,
+            <&gpio0 10 0>,
+            <&gpio0 11 0>,
+            <&gpio0 12 0>,
+            <&gpio0 13 0>,
+            <&gpio0 17 0>,
+            <&gpio0 20 0>,
+            <&gpio0 22 0>,
+            <&gpio0 23 0>,
+            <&gpio0 24 0>,
+            <&gpio0 25 0>,
+            <&gpio1 0 0>,
+            <&gpio1 1 0>,
+            <&gpio1 2 0>;
+    };
+
+};
+
+/ {
+    hid_dev_0: hid_dev_0 {
+        compatible = "zephyr,hid-device";
+        label = "HID0";
+        protocol-code = "keyboard";
+        in-report-size = <64>;
+        in-polling-period-us = <1000>;
+    };
+};

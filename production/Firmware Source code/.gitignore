@@ -1,0 +1,72 @@
+```gitignore
+# Build output
+build/
+cmake-build-*/
+out/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build.ninja
+.ninja_deps
+.ninja_log
+compile_commands.json
+
+# Zephyr generated files
+zephyr/
+zephyr_modules/
+modules/
+*.config
+*.d
+*.o
+*.a
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# West workspace and local configuration
+.west/
+.westconfig
+
+# Release verification/extraction folders
+release/verify/
+
+# Keep release firmware binaries if they are intentionally committed
+# Uncomment these lines if you want Git to ignore firmware binaries:
+# release/CHAOX-75/*.hex
+# release/CHAOX-75/*.bin
+# release/CHAOX-75/*.elf
+```

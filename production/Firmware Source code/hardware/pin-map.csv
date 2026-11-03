@@ -1,0 +1,29 @@
+Signal,GPIO,Status,Notes
+R0,P0.02,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+R1,P0.03,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+R2,P0.04,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+R3,P0.05,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+R4,P0.06,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+R5,P0.07,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+C0,P0.08,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+C1,P0.09,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+C2,P0.10,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+C3,P0.11,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+C4,P0.12,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+C5,P0.13,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+C6,P0.17,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+C7,P0.20,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+C8,P0.22,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+C9,P0.23,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+C10,P0.24,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+C11,P0.25,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+C12,P1.00,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+C13,P1.01,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+C14,P1.02,Preliminary,From supplied CHAOX-75.net; verify board-level routing
+LED-DATA,P0.26,Preliminary,Trace LED chain and confirm voltage/power topology
+LED,P0.27,Unverified,Net purpose not established yet
+Encoder_A,P0.16,Preliminary,From screenshot/netlist notes; verify net-to-pin
+Encoder_B,P0.14,Preliminary,From screenshot/netlist notes; verify net-to-pin
+Encoder_SW,P0.15,Preliminary,From screenshot/netlist notes; verify net-to-pin
+USB_D+,D+,Unverified,Check nRF52840 USB pins and schematic connectivity
+USB_D-,D-,Unverified,Check nRF52840 USB pins and schematic connectivity

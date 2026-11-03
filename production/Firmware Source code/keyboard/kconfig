@@ -1,0 +1,24 @@
+mainmenu "CHAOX-75 Keyboard"
+
+config CHAOX75_USB_VID
+    hex "CHAOX-75 USB Vendor ID"
+    default 0x2fe3
+
+config CHAOX75_USB_PID
+    hex "CHAOX-75 USB Product ID"
+    default 0x0075
+
+config CHAOX75_USB_MANUFACTURER
+    string "USB manufacturer"
+    default "CHAOX-75"
+
+config CHAOX75_USB_PRODUCT
+    string "USB product name"
+    default "CHAOX-75 Keyboard"
+
+config CHAOX75_USB_MAX_POWER
+    int "USB maximum power in 2 mA units"
+    range 0 250
+    default 125
+
+source "Kconfig.zephyr"
