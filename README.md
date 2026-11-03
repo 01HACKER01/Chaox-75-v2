@@ -49,6 +49,38 @@ i have made 1 more keyboard which was version 1 but this is version 2 i havent s
 
 **Total including shipping: About $135–255 USD**, depending heavily on the seller, quantity and shipping.
 
+# CHAOX-75 Firmware
+
+This repository contains the firmware and hardware files for my CHAOX-75 keyboard project.
+
+The firmware is built using C and Zephyr RTOS for the nRF52840 platform.
+
+### Features
+- 6×15 keyboard matrix
+- USB HID support
+- Custom Fn layer
+- Arrow keys and function-key shortcuts
+- Media controls
+
+### Project Structure
+- `keyboard/` – Firmware source code
+- `hardware/` – Hardware design files
+- `dongle/` – Dongle-related files
+- `release/` – Pre-release firmware builds
+
+### Requirements
+- nRF Connect SDK 3.4.1
+- Zephyr RTOS
+- CMake
+- West
+
+### Status
+Currently a pre-release version of the CHAOX-75 firmware. More updates and improvements will be added as development continues.
+
+---
+
+Made for the CHAOX-75 project.
+
 **CHAOX-75**  
 *Custom keyboard firmware, built from the ground up.*
 
