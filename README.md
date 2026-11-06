@@ -7,47 +7,20 @@
 <img width="802" height="293" alt="image" src="https://github.com/user-attachments/assets/051067fd-8080-456e-9e36-00cb07725982" />
 <img width="761" height="333" alt="image" src="https://github.com/user-attachments/assets/e66547de-7d9d-4594-8712-abd92a6a7974" />
 
+## what is this ??
+this is a keyboard with tri mode connectivity it can be connected with the dongle(2.4gHZ), bluetooth and wired. it also charges while connected to wired 
+
+## why it exists
+i have an old evofox keyboard which is not a good keyboard i cant type fast on that keyboard sometimes the keys doesnt get clicked or sometimes teh key gets stuck so i wanted to buy a keyboard but i thought lets make one by myself so thats why i made this.
+
+## how to assemble 
+u can just place all the comps on their places on the pcb and solder them and than flash it.
+
+## how to flash 
 
 
-
-## Keyboard
-so this keyboard hacs trimode connectivity 2.4GHz wired and buetooth 
-i have made 1 more keyboard which was version 1 but this is version 2 i havent shipped that keyboard cause i havent made any firmware yetr cause i dont know how to make the firmware so we will also ship that keyboard soon. also this keyboard has 82 mx cherry hotswappable switches and 1 rotaary encoder it also has 1 oled display and the micro controller is the nRF52840.   
-
-
-# This is a pre-release build of the CHAOX-75 firmware. It includes the current keyboard functionality and is intended for early use and feedback while development continues.
-
-
-## BOM
-
-| Part | Qty | Approx. USD | Link |
-| -------------------------------------- | -- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Custom 82-key Keyboard PCB (5 pcs) | 1 | ~$10–25 | [JLCPCB](https://jlcpcb.com/) |
-| 1.5mm Anodized Aluminum Switch Plate | 1 | ~$12–22 | [JLCPCB CNC](https://jlcpcb.com/cnc-machining) |
-| 3D Printed Keyboard Case (Top & Bottom) | 1 | ~$10–20 | [JLCPCB 3D Print](https://jlcpcb.com/3d-printing) |
-| MX mechanical switches (90 pcs) | 1 | ~$18–35 | [Alibaba MX switches](https://www.alibaba.com/trade/search?SearchText=mechanical+keyboard+switches+90pcs) |
-| PBT keycap set (82-key / 75%) | 1 | ~$15–30 | [Alibaba PBT keycaps](https://www.alibaba.com/trade/search?SearchText=PBT+keycaps+set) |
-| Kailh MX hotswap sockets (100 pcs) | 1 | ~$6–10 | [LCSC Kailh sockets](https://www.lcsc.com/search?q=kailh%20socket) |
-| SK6812MINI-E reverse-mount RGB LEDs (100 pcs) | 1 | ~$8–14 | [LCSC SK6812MINI-E](https://www.lcsc.com/search?q=SK6812MINI-E) |
-| 1N4148W SOD-123 diodes (100 pcs) | 1 | ~$1–2 | [LCSC 1N4148W](https://www.lcsc.com/search?q=1N4148W) |
-| PCB-mount screw-in stabilizers | 1 | ~$6–12 | [Alibaba PCB stabilizers](https://www.alibaba.com/trade/search?SearchText=PCB+mount+stabilizers) |
-| EC11 rotary encoder with metal knob | 1 | ~$1–2 | [LCSC EC11 encoder](https://www.lcsc.com/search?q=EC11%20encoder) |
-| 0.91" 128×32 I2C OLED display | 1 | ~$1.50–3 | [LCSC 0.91 OLED](https://www.lcsc.com/search?q=0.91%20inch%20OLED%20I2C) |
-| 3.7V 2500–3000mAh LiPo battery (JST-PH 2.0) | 1 | ~$5–9 | [Alibaba LiPo battery](https://www.alibaba.com/trade/search?SearchText=3.7V+3000mAh+lipo+battery+JST) |
-| Poron plate foam & switch pads | 1 | ~$3–6 | [Alibaba keyboard poron foam](https://www.alibaba.com/trade/search?SearchText=poron+foam+keyboard) |
-| M2 heat-set brass inserts (20 pcs) | 1 | ~$1–3 | [Alibaba M2 heat-set inserts](https://www.alibaba.com/trade/search?SearchText=M2+heat+set+inserts) |
-| M2 hex socket screws (20 pcs) | 1 | ~$1–2 | [Alibaba M2 screws](https://www.alibaba.com/trade/search?SearchText=M2+hex+screws) |
-| Silicone rubber anti-slip feet (4 pcs) | 1 | ~$0.50–1.50 | [Alibaba silicone bumpons](https://www.alibaba.com/trade/search?SearchText=silicone+bumpons) |
-| Braided USB-A → USB-C cable | 1 | ~$2–4 | [Alibaba USB-C cable](https://www.alibaba.com/trade/search?SearchText=braided+usb-c+cable) |
-| Custom 2.4GHz USB Dongle (PCB + components) | 1 | ~$8–12 | [JLCPCB](https://jlcpcb.com/) |
-
-### 💰 Estimated total
-
-**Parts: About $110–210 USD**
-
-**Estimated shipping: ~$25–45 USD**
-
-**Total including shipping: About $135–255 USD**, depending heavily on the seller, quantity and shipping.
+## issues 
+it has one issue it doesnt have a switch which can change teh connectivity l;ike the dongle bluetooth or the wired thats an issue which will i fix soon.
 
 # CHAOX-75 Firmware
 
@@ -83,6 +56,37 @@ Made for the CHAOX-75 project.
 
 **CHAOX-75**  
 *Custom keyboard firmware, built from the ground up.*
+
+## BOM
+
+| Part | Qty | Approx. USD | Link |
+| -------------------------------------- | -- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Custom 82-key Keyboard PCB (5 pcs) | 1 | ~$10–25 | [JLCPCB](https://jlcpcb.com/) |
+| 1.5mm Anodized Aluminum Switch Plate | 1 | ~$12–22 | [JLCPCB CNC](https://jlcpcb.com/cnc-machining) |
+| 3D Printed Keyboard Case (Top & Bottom) | 1 | ~$10–20 | [JLCPCB 3D Print](https://jlcpcb.com/3d-printing) |
+| MX mechanical switches (90 pcs) | 1 | ~$18–35 | [Alibaba MX switches](https://www.alibaba.com/trade/search?SearchText=mechanical+keyboard+switches+90pcs) |
+| PBT keycap set (82-key / 75%) | 1 | ~$15–30 | [Alibaba PBT keycaps](https://www.alibaba.com/trade/search?SearchText=PBT+keycaps+set) |
+| Kailh MX hotswap sockets (100 pcs) | 1 | ~$6–10 | [LCSC Kailh sockets](https://www.lcsc.com/search?q=kailh%20socket) |
+| SK6812MINI-E reverse-mount RGB LEDs (100 pcs) | 1 | ~$8–14 | [LCSC SK6812MINI-E](https://www.lcsc.com/search?q=SK6812MINI-E) |
+| 1N4148W SOD-123 diodes (100 pcs) | 1 | ~$1–2 | [LCSC 1N4148W](https://www.lcsc.com/search?q=1N4148W) |
+| PCB-mount screw-in stabilizers | 1 | ~$6–12 | [Alibaba PCB stabilizers](https://www.alibaba.com/trade/search?SearchText=PCB+mount+stabilizers) |
+| EC11 rotary encoder with metal knob | 1 | ~$1–2 | [LCSC EC11 encoder](https://www.lcsc.com/search?q=EC11%20encoder) |
+| 0.91" 128×32 I2C OLED display | 1 | ~$1.50–3 | [LCSC 0.91 OLED](https://www.lcsc.com/search?q=0.91%20inch%20OLED%20I2C) |
+| 3.7V 2500–3000mAh LiPo battery (JST-PH 2.0) | 1 | ~$5–9 | [Alibaba LiPo battery](https://www.alibaba.com/trade/search?SearchText=3.7V+3000mAh+lipo+battery+JST) |
+| Poron plate foam & switch pads | 1 | ~$3–6 | [Alibaba keyboard poron foam](https://www.alibaba.com/trade/search?SearchText=poron+foam+keyboard) |
+| M2 heat-set brass inserts (20 pcs) | 1 | ~$1–3 | [Alibaba M2 heat-set inserts](https://www.alibaba.com/trade/search?SearchText=M2+heat+set+inserts) |
+| M2 hex socket screws (20 pcs) | 1 | ~$1–2 | [Alibaba M2 screws](https://www.alibaba.com/trade/search?SearchText=M2+hex+screws) |
+| Silicone rubber anti-slip feet (4 pcs) | 1 | ~$0.50–1.50 | [Alibaba silicone bumpons](https://www.alibaba.com/trade/search?SearchText=silicone+bumpons) |
+| Braided USB-A → USB-C cable | 1 | ~$2–4 | [Alibaba USB-C cable](https://www.alibaba.com/trade/search?SearchText=braided+usb-c+cable) |
+| Custom 2.4GHz USB Dongle (PCB + components) | 1 | ~$8–12 | [JLCPCB](https://jlcpcb.com/) |
+
+### 💰 Estimated total
+
+**Parts: About $110–210 USD**
+
+**Estimated shipping: ~$25–45 USD**
+
+**Total including shipping: About $135–255 USD**, depending heavily on the seller, quantity and shipping.
 
 ## Made by Chaox and ByteCyro
 ## Thank you very much 
