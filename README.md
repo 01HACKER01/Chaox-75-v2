@@ -16,9 +16,6 @@ i have an old evofox keyboard which is not a good keyboard i cant type fast on t
 ## how to assemble 
 u can just place all the comps on their places on the pcb and solder them and than flash it.
 
-## how to flash 
-
-
 ## issues 
 it has one issue it doesnt have a switch which can change teh connectivity l;ike the dongle bluetooth or the wired thats an issue which will i fix soon.
 
