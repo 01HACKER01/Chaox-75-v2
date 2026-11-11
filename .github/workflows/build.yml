@@ -1,25 +1,9 @@
-name: Build Dongle Firmware
+name: Build ZMK Firmware
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Build Firmware
-        uses: zmkfirmware/zmk-action@v3
-        with:
-          args: --board seeed_xiao_nrf52840 --shield custom_dongle
-        env:
-          ZMK_CONFIG: ${{ github.workspace }}/Firmware/zmk-config/config
-
-      - name: Upload UF2
-        uses: actions/upload-artifact@v4
-        with:
-          name: custom_dongle_firmware
-          path: |
-            build/zephyr/zmk.uf2
-            zmk.uf2
-        continue-on-error: true
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    with:
+      build_matrix_path: build.yaml
+      config_path: Firmware/zmk-config/config
