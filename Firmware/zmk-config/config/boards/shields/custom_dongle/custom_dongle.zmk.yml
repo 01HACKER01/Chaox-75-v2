@@ -1,1 +1,9 @@
-
+file_format: "1"
+id: custom_dongle
+name: Custom nRF52840 Dongle
+type: shield
+url: https://github.com/
+requires: [pro_micro]
+features:
+  - keys
+  - studio
