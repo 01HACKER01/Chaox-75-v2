@@ -1,0 +1,6 @@
+if SHIELD_CHAOX75
+
+config ZMK_KEYBOARD_NAME
+    default "CHAOX-75"
+
+endif
