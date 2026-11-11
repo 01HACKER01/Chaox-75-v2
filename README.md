@@ -16,6 +16,20 @@ i have an old evofox keyboard which is not a good keyboard i cant type fast on t
 ## how to assemble 
 u can just place all the comps on their places on the pcb and solder them and than flash it.
 
+## Download & Flash Firmware
+
+### 1. Download the Firmware
+1. Open the [Actions tab](../../actions/workflows/build.yml).
+2. Select the latest successful **Build ZMK firmware** run (green ✅).
+3. Scroll to **Artifacts**.
+4. Download the firmware ZIP and extract it.
+
+### 2. Flash the Keyboard
+1. Connect the keyboard to your PC using USB.
+2. Enter bootloader mode using the method supported by your keyboard.
+3. If the bootloader exposes a USB drive, copy the compatible firmware file (such as `.uf2`) onto it.
+4. Wait for the keyboard to restart.
+
 ## issues 
 it has one issue it doesnt have a switch which can change teh connectivity l;ike the dongle bluetooth or the wired thats an issue which will i fix soon.
 
