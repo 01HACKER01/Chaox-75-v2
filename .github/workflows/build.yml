@@ -1,1 +1,32 @@
+name: Build Dongle Firmware
+on: [push, pull_request, workflow_dispatch]
 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Cache West Modules
+        uses: actions/cache@v4
+        with:
+          path: |
+            modules/
+            tools/
+            zephyr/
+            zmk/
+          key: ${{ runner.os }}-zmk-${{ hashFiles('**/west.yml', '**/build.yaml') }}
+
+      - name: Build Firmware
+        uses: zmkfirmware/zmk-action@v3
+        with:
+          args: --board seeed_xiao_nrf52840 --shield custom_dongle -DZMK_CONFIG="${{ github.workspace }}/Firmware/zmk-config/config"
+
+      - name: Upload UF2 Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: custom_dongle_firmware
+          path: zmk.uf2
