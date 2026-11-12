@@ -1,2 +1,0 @@
-config SHIELD_CHAOX75
-    def_bool $(shields_list_contains,chaox75)
