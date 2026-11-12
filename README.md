@@ -33,7 +33,7 @@ this repo has the code and pcb files for my chaox-75 keyboard. i wrote the firmw
 ## how to flash
 1. plug the keyboard into your pc with a usb-c cable.
 2. double press the reset button on the pcb (or short the rst and gnd pins) to put it into bootloader mode. a new drive should pop up on your pc.
-3. grab the `.uf2` firmware file from the releases or actions tab and just drag and drop it onto that drive.
+3. grab the `.uf2` firmware file from the releases and just drag and drop it onto that drive.
 4. it will disconnect and reboot by itself in a couple seconds and ur good to go.
 
 ### what u need to build it
