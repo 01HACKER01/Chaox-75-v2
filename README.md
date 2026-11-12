@@ -99,6 +99,6 @@ Made for the CHAOX-75 project.
 
 **Total including shipping: About $135–255 USD**, depending heavily on the seller, quantity and shipping.
 
-## Made by Chaox and ByteCyro
+## Made by Chaox 
 ## Thank you very much 
 
