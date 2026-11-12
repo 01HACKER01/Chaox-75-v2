@@ -16,50 +16,36 @@ i have an old evofox keyboard which is not a good keyboard i cant type fast on t
 ## how to assemble 
 u can just place all the comps on their places on the pcb and solder them and than flash it.
 
-## Download & Flash Firmware
+## firmware stuff
+this repo has the code and pcb files for my chaox-75 keyboard. i wrote the firmware in c using zephyr rtos for the nrf52840.
 
-### 1. Download the Firmware
-1. Open the [Actions tab](../../actions/workflows/build.yml).
-2. Select the latest successful **Build ZMK firmware** run (green ✅).
-3. Scroll to **Artifacts**.
-4. Download the firmware ZIP and extract it.
+### what it does
+* 6x15 key matrix
+* works over usb (hid)
+* custom fn layer with arrow keys, f-key shortcuts, and media controls
 
-### 2. Flash the Keyboard
-1. Connect the keyboard to your PC using USB.
-2. Enter bootloader mode using the method supported by your keyboard.
-3. If the bootloader exposes a USB drive, copy the compatible firmware file (such as `.uf2`) onto it.
-4. Wait for the keyboard to restart.
+### folders
+* `keyboard/` - main firmware code
+* `hardware/` - pcb and schematic files
+* `dongle/` - 2.4ghz dongle code
+* `release/` - precompiled firmware files if u dont wanna build it urself
 
+## how to flash
+1. plug the keyboard into your pc with a usb-c cable.
+2. double press the reset button on the pcb (or short the rst and gnd pins) to put it into bootloader mode. a new drive should pop up on your pc.
+3. grab the `.uf2` firmware file from the releases or actions tab and just drag and drop it onto that drive.
+4. it will disconnect and reboot by itself in a couple seconds and ur good to go.
+
+### what u need to build it
+* nrf connect sdk 3.4.1
+* zephyr rtos
+* cmake & west
+
+### status
+still a work in progress (pre-release) so expect some bugs. im still working on it and will push updates when i fix things.
 ## issues 
 it has one issue it doesnt have a switch which can change teh connectivity l;ike the dongle bluetooth or the wired thats an issue which will i fix soon.
 
-# CHAOX-75 Firmware
-
-This repository contains the firmware and hardware files for my CHAOX-75 keyboard project.
-
-The firmware is built using C and Zephyr RTOS for the nRF52840 platform.
-
-### Features
-- 6×15 keyboard matrix
-- USB HID support
-- Custom Fn layer
-- Arrow keys and function-key shortcuts
-- Media controls
-
-### Project Structure
-- `keyboard/` – Firmware source code
-- `hardware/` – Hardware design files
-- `dongle/` – Dongle-related files
-- `release/` – Pre-release firmware builds
-
-### Requirements
-- nRF Connect SDK 3.4.1
-- Zephyr RTOS
-- CMake
-- West
-
-### Status
-Currently a pre-release version of the CHAOX-75 firmware. More updates and improvements will be added as development continues.
 
 ---
 
@@ -99,6 +85,6 @@ Made for the CHAOX-75 project.
 
 **Total including shipping: About $135–255 USD**, depending heavily on the seller, quantity and shipping.
 
-## Made by Chaox 
+## Made by Chaox And Arnav
 ## Thank you very much 
 
